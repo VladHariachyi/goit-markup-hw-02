@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --iris-color: #4d5ae5;
+  --ocean-color: #404BBF;
+  --navy-blue-color: #2E2F42;
+  --green-color: #31D0AA;
+  --slate-color: #434455;
+  --light-slate-color: #8E8F99;
+
+  /* Backgrounds */
+  --cornflower-bg: #e7e9fc;
+  --cloud-bg: #f4f4fd;
+  --navy-blue-modal-bg: #2e2f42;
+  --grey-bg: #2e2f42;
+  --white-bg: #ffffff;
+  --dairy-bg: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--slate-color);
+  background-color: var(--white-bg);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
