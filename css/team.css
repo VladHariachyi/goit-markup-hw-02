@@ -2,7 +2,7 @@
   background-color: var(--cloud-bg);
 }
 
-.team-member {
+.team-section .team-member {
   background-color: var(--white-color);
 }
 
