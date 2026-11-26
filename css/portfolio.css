@@ -1,0 +1,14 @@
+.project {
+  background-color: var(--white-color);
+}
+
+.portfolio-section .project .project__name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--navy-blue-color);
+}
+
+.portfolio-section .project .project__direction {
+  color: var(--slate-color);
+}

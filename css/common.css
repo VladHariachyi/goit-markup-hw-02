@@ -1,25 +1,25 @@
 :root {
   /* Colors */
   --iris-color: #4d5ae5;
-  --ocean-color: #404BBF;
-  --navy-blue-color: #2E2F42;
-  --green-color: #31D0AA;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
   --slate-color: #434455;
-  --light-slate-color: #8E8F99;
+  --light-slate-color: #8e8f99;
+  --white-color: #ffffff;
 
   /* Backgrounds */
   --cornflower-bg: #e7e9fc;
   --cloud-bg: #f4f4fd;
   --navy-blue-modal-bg: #2e2f42;
   --grey-bg: #2e2f42;
-  --white-bg: #ffffff;
   --dairy-bg: #fcfcfc;
 }
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--slate-color);
-  background-color: var(--white-bg);
+  background-color: var(--white-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
@@ -28,9 +28,58 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--slate-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--ocean-color);
 }
 
 ul,
 ol {
   list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3%;
+  line-height: 1.3333;
+}
+
+.logo__prefix {
+  color: var(--iris-color);
+}
+
+.primary-btn {
+  font-weight: 500;
+  color: var(--white-color);
+  background-color: var(--iris-color);
+  padding: 18px 32px;
+  letter-spacing: 4%;
+}
+
+.primary-btn:hover,
+.primary-btn:focus,
+.primary-btn:active {
+  background-color: var(--ocean-color);
+}
+
+.page-title {
+  font-size: 56px;
+  line-height: 1.0714;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1111;
+  text-align: center;
 }

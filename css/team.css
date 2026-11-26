@@ -1,0 +1,23 @@
+.team-section {
+  background-color: var(--cloud-bg);
+}
+
+.team-member {
+  background-color: var(--white-color);
+}
+
+.team-section .team-member .team-member__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue-color);
+}
+
+.team-section .team-member .team-member__role {
+  color: var(--slate-color);
+}
+
+.team-section .team-member .team-member__name,
+.team-section .team-member .team-member__role {
+  text-align: center;
+}

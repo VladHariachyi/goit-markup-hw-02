@@ -1,0 +1,10 @@
+.features-section .feature .feature__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue-color);
+}
+
+.features-section .feature .feature__description {
+  color: var(--slate-color);
+}
