@@ -75,11 +75,14 @@ button {
   font-size: 56px;
   line-height: 1.0714;
   color: var(--white-color);
-  text-align: center;
 }
 
 .section-title {
   font-size: 36px;
   line-height: 1.1111;
+}
+
+.page-title,
+.section-title {
   text-align: center;
 }

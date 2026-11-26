@@ -1,8 +1,8 @@
 .page-header .page-nav__link {
   font-weight: 500;
-  color: var(--navy-blue-color);
 }
 
+.page-header .page-nav__link,
 .page-header .logo {
   color: var(--navy-blue-color);
 }
